@@ -1,0 +1,263 @@
+html {
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+body {
+    font-family: monospace;
+    background-color: #47494e;
+    color: #fafaf4;
+
+}
+    
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.5rem;
+}
+a {
+    margin-top: 1rem;
+    border-radius: 0.75rem;
+    padding: 0.5rem;
+    background-color: #fafaf4;
+    display: inline;
+    text-decoration: none;
+    color: #47494e ;
+}
+a:active {
+    color: #fafaf4;
+} 
+
+h3 {
+    font-size: 1.5rem;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+   
+}
+/*header*/
+.header {
+    background-color: #cfdad1;
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header h1 {
+    color: #47494e;
+}
+nav {
+    width: 98%;
+    height: 3rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+/*banner*/
+.banner {
+    background-image: url('../resources/images/main-tea2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 43.5rem;
+    width: 100%;
+    top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    left:0px;
+}
+.tagline {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.btn#best {
+    
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*main*/
+
+.container-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #868c8a;
+    border-bottom: 3rem solid #868c8a;
+    border-top: 3rem solid #868c8a;
+}
+
+.container-box img {
+    width: 37.5rem;
+    height: 22rem;
+    padding: 0;
+    margin: 0;
+}
+
+ p {
+    width: 37.5rem;
+    height: 22rem;
+    background-color: #cfdad1;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    padding: 0;
+}
+
+.learn,
+.quiz {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+/*bestsellers*/
+.bestsellers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.one, .two {
+    margin-right: 7.5rem;
+
+}
+.card .image-container {
+    overflow: hidden;
+    width: 20rem;
+    height: 20rem;
+    
+}
+.bestsellers h3 {
+    color: #47494e;
+    background-color: #cfdad1;
+    width: 19.5rem;
+    height: 1.75rem;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+
+/*tea club*/
+.container-club {
+    background-color: #868c8a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3rem solid #868c8a;
+}
+.container-club .club {
+    display: flex;
+    flex-direction: column;
+}
+.container-club .join {
+    display: inline-flex;
+    flex-direction: column;
+
+}
+
+.club-header {
+    font-size: 2rem;
+    padding-top: .5rem;
+    height: 3rem;
+    width: 75rem;
+    background-color: #868c8a;
+}
+
+.container-club p {
+    width: 27.5rem;
+    height: 7rem;
+    color: #868c8a;
+    background-color: #cfdad1;
+}
+.container-club img {
+    margin-right: 5rem;
+    width: 42.5rem;
+    height: 37.5rem;
+} 
+
+.join img {
+    width: 27.5rem;
+    height: 30.5rem;
+    margin: 0;
+}
+
+/*quote*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.quote  {
+    text-align: center;
+    background-image: url('../resources/images/ravi-pinisetti-ySQXoZLAsmc-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.quote h2 {
+    padding-top: 11rem ;
+    width: 75rem;
+    height: 11rem;
+    font-size: 2rem;
+}
+.quote h3 {
+    padding-bottom: 2rem;
+}
+/*footer*/
+.container-footer {
+    text-align: center;
+    height: auto;
+}
+.copyright {
+    display: flex;
+    height: 2rem;
+    width: 100%;
+    padding-left: 1rem;
+
+}
+
